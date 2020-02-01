@@ -1,0 +1,108 @@
+/*Transições*/
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+#caixa:hover{
+	width: 300px;
+	background: yellow;
+	/*transition: background 3s;*/
+	transition: all 3s;
+}
+/*Animações
+@-webkit-keyframes animacao-caixa {
+	from{/*Inicial
+		background: red;
+	}
+	to {/*Final
+		background: green;
+	}
+}
+@-moz-keyframes animacao-caixa {
+	from{/*Inicial
+		background: red;
+	}
+	to {/*Final
+		background: green;
+	}
+}
+@-o-keyframes animacao-caixa {
+	from{/*Inicial
+		background: red;
+	}
+	to {/*Final
+		background: green;
+	}
+}
+@keyframes animacao-caixa {
+	from{/*Inicial
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {/*Final
+		background: green;
+		border-radius: 300px;
+		top:50px;
+		left: 50px;
+	}
+}
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+}*/
+/*Sombra
+#caixa{
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: -2px -1px 5px 10px rgba(0,255,0,0.4);
+}
+#caixa h1{
+	color: white;
+	text-shadow: -2px -1px 5px rgba(255,0,0,0.4);
+	/*text-shadow: -2px -1px red;*/
+}
+/*gradiente*/
+/*
+#caixa{
+	width: 300px;
+	height: 300px;
+	/*background: linear-gradient(180deg,red, blue, yellow);*/
+	/*background: url("../img/camera.png");*
+	background: radial-gradient(redn,green)
+}
+#caixa h1{
+	/*background: rgb(255,255,255,0.7);*
+}*/
+/*Box sizing*/
+/*#caixa{
+	width: 300px;
+	height: 300px;
+	background: #B9C941;
+	padding: 50px;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}
+#caixa2{
+	width: 300px;
+	height: 300px;
+	background: #B9C941;
+	/*-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}*/
